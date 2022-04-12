@@ -1,6 +1,6 @@
-# Authenticated Apps w/Auth0 and Gatsby
+# Authenticated Apps with Auth0 and Gatsby
 
-This app is based on  part of the _Learn With Jason_ livestream series.
+Typescript version of app from _Learn With Jason_ livestream series.
 
 - [Watch this app get built live!](https://www.youtube.com/watch?v=j-vuF2PYHmU&index=2&list=PLz8Iz-Fnk_eTpvd49Sa77NiF8Uqq5Iykx) 
 

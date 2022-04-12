@@ -1,10 +1,13 @@
+/**
+ * Account 
+ * v 0.1.0
+ * 2022-2022
+ * */
 import React from "react"
-import { PageProps } from "gatsby"
-
 import { Link } from "gatsby"
 import { logout } from "../utils/auth"
 
-const Callback = ({} : PageProps) => {
+const Callback = () => {
   return(
     <>
       <p>Callback</p>
