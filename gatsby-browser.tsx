@@ -8,10 +8,9 @@ import { check_session } from "./src/utils/auth"
 import type { GatsbyBrowser } from 'gatsby'
 
 
-const SessionCheck = ({ children  } : any) => {
+const SessionCheck = ({ children } : any) => {
   const [loading, still_loading] = useState(true);
   useEffect(() => check_session(() => still_loading(false)));
-  // return <>{children}</>
   if(loading !== false ) {
     return null;
   } else {
